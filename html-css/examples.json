@@ -1,0 +1,42 @@
+[
+  {
+    "name": "snapshot01",
+    "number": 1,
+    "message": "The browser doesn't understand plain text",
+    "files": [
+      "index.html"
+    ],
+    "url": "https://github.com/curran/screencasts/tree/gh-pages/introToAngular/examples/snapshots/snapshot01",
+    "runUrl": "http://curran.github.io/screencasts/introToAngular/examples/snapshots/snapshot01"
+  },
+  {
+    "name": "snapshot02",
+    "number": 2,
+    "message": "You can use HTML tags to give structure to your content.",
+    "files": [
+      "index.html"
+    ],
+    "url": "https://github.com/curran/screencasts/tree/gh-pages/introToAngular/examples/snapshots/snapshot02",
+    "runUrl": "http://curran.github.io/screencasts/introToAngular/examples/snapshots/snapshot02"
+  },
+  {
+    "name": "snapshot03",
+    "number": 3,
+    "message": "Creating headings using HTML",
+    "files": [
+      "index.html"
+    ],
+    "url": "https://github.com/curran/screencasts/tree/gh-pages/introToAngular/examples/snapshots/snapshot03",
+    "runUrl": "http://curran.github.io/screencasts/introToAngular/examples/snapshots/snapshot03"
+  },
+  {
+    "name": "snapshot04",
+    "number": 4,
+    "message": "Let's try to build my resume using HTML tags",
+    "files": [
+      "index.html"
+    ],
+    "url": "https://github.com/curran/screencasts/tree/gh-pages/introToAngular/examples/snapshots/snapshot04",
+    "runUrl": "http://curran.github.io/screencasts/introToAngular/examples/snapshots/snapshot04"
+  }
+]
