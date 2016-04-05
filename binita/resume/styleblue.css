@@ -1,0 +1,78 @@
+body {
+  width: 960px;
+  margin: 1 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+#one {
+background-color: #2E73B6;
+float: left;
+width: 300px;
+
+}
+#two {
+	background-color: #EFEFEF;
+	width: 660px;
+	float: right;
+
+}
+#innertwo{
+	width: 600px;
+}
+#name{
+	font-family: Arial;
+	font color: black;
+	padding-left: 20px;
+	padding-top: 5px;
+
+}
+#dev{
+	font-family: Arial;
+	font color: black;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+#leftinfos{
+	font-family: Arial;
+	padding-top: 400px;
+	padding-left: 20px;
+
+}
+
+.bluelines{
+	background-color: #2E73B6;
+	width: 500px;
+	
+	padding-left: 20px;
+}
+.paragraph{
+	background-color: #EFEFEF;
+	width: 500px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+.left{
+	float: left;
+		width: 100px;
+	
+
+}
+.right{
+	float: right;
+	width: 400px;
+		
+}
+
+@media screen and (max-width:500px){
+    body, .#rightcontent, #leftcolumn {
+      width: 100%;
+      height: auto;
+    }
+}
