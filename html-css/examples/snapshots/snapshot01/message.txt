@@ -1,1 +1,0 @@
-Markup is need to describe page content.
