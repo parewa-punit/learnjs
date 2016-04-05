@@ -1,0 +1,46 @@
+body {
+	font-family: "Nunito";
+	color: #555555;
+	font-weight: 300;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: lighter;
+	
+}
+
+#lastname {
+	font-weight: bold;
+}
+
+#personal-info {
+	font-family: Inconsolata;
+}
+
+#personal-info li {
+	list-style-type: none;
+	margin-bottom: 5px;
+	letter-spacing: 3px;
+	color: #555555;
+}
+
+.left {
+	float: left;
+	width: 500px;
+}
+
+.right {
+	float:left;
+	width: 500px;
+}
+
+.right .year {
+	float: left;
+	width: 100px;
+}
+
+.right .achievement {
+	float: left;
+	width: 400px;
+}
