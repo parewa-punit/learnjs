@@ -1,0 +1,45 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: "Lato";
+	font-weight: lighter;
+	
+}
+
+p {
+	color: #999999;
+}
+
+ol {
+	color: #999999;
+}
+
+table {
+	color: #999999;
+}
+#header h1 {
+	margin-bottom: 2px;
+}
+li {
+	color: #999999;
+}
+
+#header p {
+	margin-top: 0px;
+}
+
+#header {
+	text-align: center;
+	border-bottom: 1px solid #999999;
+}
+
+#left {
+	width: 200px;
+	float: left;
+}
+
+#right {
+	width: 760px;
+	float: left;
+}
+
