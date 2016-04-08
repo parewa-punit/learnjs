@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+	    background-image: url(images/backgroundbody.jpg);
+}
+
+p{
+	color: white;
+    margin-top: 0px;
+    padding: 147px;
+}
+
+h1{
+	 margin-left: 548px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.quickFade{
+	overflow: hidden;
+    background-color: #333;
+    height: 610px;
+    margin-top: 4px;
+} 
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" id = "personal">Personal Porfile</a></li>
+  <li><a id = "work" >Work Experience</a></li>
+  <li><a id = "key">Key Skills</a></li>
+  <li><a id = "edu">Educations</li>
+</ul>
+
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+	
+	
+		
+		<div id="contactDetails" class="quickFade delayFour">
+		
+         <h1></h1>
+		<p></p>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+    <script src="js/jquery.js"></script>
+ <script src="js/jquery-ui.js"></script>
+<script>
+
+(function($) {
+	  $( "#contactDetails" ).fadeOut("slow");
+      $( "#contactDetails" ).hide();
+      $("h1").html("Personal Detail");
+      $("p").html("The functional résumé is used to focus on skills that are specific to the type of position being sought. This format directly emphasizes specific professional capabilities and utilizes experience summaries as its primary means of communicating professional competency. In contrast, the chronological résumé format will briefly highlight these competencies prior to presenting a comprehensive timeline of career growth through reverse chronological listings, with the most recent experience listed first. The functional résumé works well for those making a career change, having a varied work history or with little work experience. A functional résumé is also preferred for applications to jobs that require very specific skills or clearly defined personality traits. A functional résumé is a good method for highlighting particular skills or experiences, especially when those particular skills or experiences may have derived from a role which was held some time ago. Rather than focus on the length of time that has passed, the functional résumé allows the reader to identify those skills quickly "); 
+       runEffect("drop");
+$( "#personal" ).click(function() {
+       $( "#contactDetails" ).fadeOut("slow");
+     $( "#contactDetails" ).hide();
+        $("h1").html("Personal Detail");
+       $("p").html("The functional résumé is used to focus on skills that are specific to the type of position being sought. This format directly emphasizes specific professional capabilities and utilizes experience summaries as its primary means of communicating professional competency. In contrast, the chronological résumé format will briefly highlight these competencies prior to presenting a comprehensive timeline of career growth through reverse chronological listings, with the most recent experience listed first. The functional résumé works well for those making a career change, having a varied work history or with little work experience. A functional résumé is also preferred for applications to jobs that require very specific skills or clearly defined personality traits. A functional résumé is a good method for highlighting particular skills or experiences, especially when those particular skills or experiences may have derived from a role which was held some time ago. Rather than focus on the length of time that has passed, the functional résumé allows the reader to identify those skills quickly ");     
+      runEffect("drop");
+    });
+
+   
+    $( "#key" ).click(function() {
+        $( "#contactDetails" ).fadeOut("slow");
+         $( "#contactDetails" ).hide();
+            $("h1").html("Key Skills");
+       $("pre").html("The functional résumé is used to focus on skills that are specific to the type of position being sought. This format directly emphasizes specific professional capabilities and utilizes experience summaries as its primary means of communicating professional competency. In contrast, the chronological résumé format will briefly highlight these competencies prior to presenting a comprehensive timeline of career growth through reverse chronological listings, with the most recent experience listed first. The functional résumé works well for those making a career change, having a varied work history or with little work experience. A functional résumé is also preferred for applications to jobs that require very specific skills or clearly defined personality traits. A functional résumé is a good method for highlighting particular skills or experiences, especially when those particular skills or experiences may have derived from a role which was held some time ago. Rather than focus on the length of time that has passed, the functional résumé allows the reader to identify those skills quickly"); 
+
+      runEffect("drop");
+    });
+
+ 
+    $( "#edu" ).click(function() {
+        $( "#contactDetails" ).fadeOut("slow");
+         $( "#contactDetails" ).hide(); 
+         $("h1").html("Education");
+       $("p").html("The functional résumé is used to focus on skills that are specific to the type of position being sought. This format directly emphasizes specific professional capabilities and utilizes experience summaries as its primary means of communicating professional competency. In contrast, the chronological résumé format will briefly highlight these competencies prior to presenting a comprehensive timeline of career growth through reverse chronological listings, with the most recent experience listed first. The functional résumé works well for those making a career change, having a varied work history or with little work experience. A functional résumé is also preferred for applications to jobs that require very specific skills or clearly defined personality traits. A functional résumé is a good method for highlighting particular skills or experiences, especially when those particular skills or experiences may have derived from a role which was held some time ago. Rather than focus on the length of time that has passed, the functional résumé allows the reader to identify those skills quickly"); 
+
+      runEffect("drop");
+    });
+ 
+
+ $( "#work" ).click(function() {
+        $( "#contactDetails" ).fadeOut("slow");
+         $( "#contactDetails" ).hide(); 
+          $("h1").html("Work Experience");
+       $("p").html("The functional résumé is used to focus on skills that are specific to the type of position being sought. This format directly emphasizes specific professional capabilities and utilizes experience summaries as its primary means of communicating professional competency. In contrast, the chronological résumé format will briefly highlight these competencies prior to presenting a comprehensive timeline of career growth through reverse chronological listings, with the most recent experience listed first. The functional résumé works well for those making a career change, having a varied work history or with little work experience. A functional résumé is also preferred for applications to jobs that require very specific skills or clearly defined personality traits. A functional résumé is a good method for highlighting particular skills or experiences, especially when those particular skills or experiences may have derived from a role which was held some time ago. Rather than focus on the length of time that has passed, the functional résumé allows the reader to identify those skills quickly"); 
+
+      runEffect("drop");
+    });
+
+
+function runEffect(changeEffect) {
+      // get effect type from
+      var selectedEffect = changeEffect;
+ 
+      // run the effect
+      $( "#contactDetails" ).show( selectedEffect, 500);
+    };
+ })(jQuery);
+</script>
+</body>
+</html>
